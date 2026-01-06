@@ -1,7 +1,7 @@
-# ## WAP to input users first name and print its length
+## WAP to input users first name and print its length
 
-# name = input("Enter your name: ")
-# print ("Length of your name is", len(name))
+name = input("Enter your name: ")
+print ("Length of your name is", len(name))
 
 
 #WAP to grade marks
@@ -19,3 +19,13 @@ else:
   grade = "D"
 
 print("grade of the students :", grade)
+
+
+#WAP whether the number is even or odd
+
+num = int (input("Enterb a number: "))
+
+if num % 2 == 0:
+  print("The number is even")
+else:
+  print("The number is odd")
